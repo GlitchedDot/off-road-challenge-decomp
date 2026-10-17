@@ -1,0 +1,14 @@
+*.z64
+*.n64
+*.v64
+baserom*
+*.bin
+build/
+*.o
+*.elf
+*.map
+.venv/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
