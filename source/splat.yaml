@@ -1,0 +1,51 @@
+name: Offroad (North America)
+sha1: 9e754ca37d69424e9f82a421d5e69d4ad73046c1
+options:
+  disassemble_all: true
+  auto_decompile_empty_functions: false
+  basename: offroad
+  target_path: baserom.z64
+  elf_path: build/offroad.elf
+  base_path: .
+  platform: n64
+  compiler: KMC
+  ld_script_path: offroad.ld
+  ld_dependencies: true
+  find_file_boundaries: true
+  header_encoding: ASCII
+  o_as_suffix: true
+  use_legacy_include_asm: false
+  mips_abi_float_regs: o32
+  symbol_addrs_path: [symbol_addrs.txt]
+  reloc_addrs_path: [reloc_addrs.txt]
+  extensions_path: tools/splat_ext
+  rodata_string_guesser_level: 2
+  data_string_guesser_level: 2
+segments:
+- {name: header, type: header, start: 0}
+- {name: ipl3, type: bin, start: 64}
+- name: entry
+  type: code
+  start: 4096
+  vram: 2147484672
+  subsegments:
+  - [4096, hasm]
+- name: main
+  type: code
+  start: 4176
+  vram: 2147484752
+  follows_vram: entry
+  bss_size: 878400
+  subsegments:
+  - [4176, c, main]
+  - [436944, data]
+  - {type: bss, vram: 2148040640}
+- {type: bin, start: 560064, follows_vram: main}
+- name: code_8030CA40
+  type: code
+  start: 3711856
+  vram: 2150681152
+  subsegments:
+  - [3711856, c, code_8030CA40]
+- {type: bin, start: 3779040}
+- [16777216]
