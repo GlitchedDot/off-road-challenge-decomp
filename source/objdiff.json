@@ -11681,6 +11681,14 @@
       }
     },
     {
+      "name": "code_8030CA40/func_8031A4E8_part2",
+      "target_path": "build/asm/nonmatchings/code_8030CA40/func_8031A4E8_part2.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
       "name": "code_8030CA40/func_8031A5D0",
       "target_path": "build/asm/nonmatchings/code_8030CA40/func_8031A5D0.o",
       "metadata": {

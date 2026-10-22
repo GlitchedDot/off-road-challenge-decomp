@@ -1437,6 +1437,7 @@ func_8031A420 = 0x8031A420; // type:func
 func_8031A448 = 0x8031A448; // type:func
 func_8031A4C0 = 0x8031A4C0; // type:func
 func_8031A4E8 = 0x8031A4E8; // type:func
+func_8031A4E8_part2 = 0x8031A5B4; // type:func
 func_8031A5D0 = 0x8031A5D0; // type:func
 func_8031A5F8 = 0x8031A5F8; // type:func
 func_8031A620 = 0x8031A620; // type:func
