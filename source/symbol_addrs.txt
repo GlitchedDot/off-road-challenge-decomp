@@ -479,6 +479,7 @@ func_800447C0 = 0x800447C0; // type:func
 func_80044818 = 0x80044818; // type:func
 func_80044894 = 0x80044894; // type:func
 func_800448E8 = 0x800448E8; // type:func
+func_800448E8_part1 = 0x80044920; // type:func
 func_80044A50 = 0x80044A50; // type:func
 OffroadEventHandler = 0x80044BE0; // type:func
 func_80044BF4 = 0x80044BF4; // type:func

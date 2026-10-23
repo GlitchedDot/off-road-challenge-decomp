@@ -3592,6 +3592,13 @@
    "asm": "asm/nonmatchings/main/func_800448E8.s"
   },
   {
+   "name": "func_800448E8_part1",
+   "seg": "main",
+   "vram": 2147764512,
+   "rom": 283936,
+   "asm": "asm/nonmatchings/main/func_800448E8_part1.s"
+  },
+  {
    "name": "func_80044A50",
    "seg": "main",
    "vram": 2147764816,

@@ -3887,6 +3887,14 @@
       }
     },
     {
+      "name": "main/func_800448E8_part1",
+      "target_path": "build/asm/nonmatchings/main/func_800448E8_part1.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
       "name": "main/func_80044A50",
       "target_path": "build/asm/nonmatchings/main/func_80044A50.o",
       "metadata": {
