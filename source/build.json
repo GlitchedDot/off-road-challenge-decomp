@@ -978,6 +978,13 @@
    "asm": "asm/nonmatchings/main/func_80016FC8.s"
   },
   {
+   "name": "func_80016FC8_part1",
+   "seg": "main",
+   "vram": 2147577856,
+   "rom": 97280,
+   "asm": "asm/nonmatchings/main/func_80016FC8_part1.s"
+  },
+  {
    "name": "func_800171B0",
    "seg": "main",
    "vram": 2147578288,

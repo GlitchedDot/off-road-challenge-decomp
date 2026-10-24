@@ -924,6 +924,14 @@
       }
     },
     {
+      "name": "main/func_80016FC8_part1",
+      "target_path": "build/asm/nonmatchings/main/func_80016FC8_part1.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
       "name": "main/func_800171B0",
       "target_path": "build/asm/nonmatchings/main/func_800171B0.o",
       "metadata": {

@@ -111,6 +111,7 @@ func_80015BC8 = 0x80015BC8; // type:func
 func_800165D8 = 0x800165D8; // type:func
 func_80016A28 = 0x80016A28; // type:func
 func_80016FC8 = 0x80016FC8; // type:func
+func_80016FC8_part1 = 0x80017000; // type:func
 func_800171B0 = 0x800171B0; // type:func
 func_80017370 = 0x80017370; // type:func
 func_800175C0 = 0x800175C0; // type:func
