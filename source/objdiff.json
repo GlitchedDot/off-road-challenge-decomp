@@ -2559,6 +2559,14 @@
       }
     },
     {
+      "name": "main/func_80035F88",
+      "target_path": "build/asm/nonmatchings/main/func_80035F88.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
       "name": "main/func_80035FD0",
       "target_path": "build/asm/nonmatchings/main/func_80035FD0.o",
       "metadata": {
@@ -4653,6 +4661,14 @@
     {
       "name": "main/func_800481CC",
       "target_path": "build/asm/nonmatchings/main/func_800481CC.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
+      "name": "main/func_800481CC_first",
+      "target_path": "build/asm/nonmatchings/main/func_800481CC_first.o",
       "metadata": {
         "complete": false,
         "source_path": null
@@ -8875,6 +8891,14 @@
       }
     },
     {
+      "name": "main/offroadUpdateState",
+      "target_path": "build/asm/nonmatchings/main/offroadUpdateState.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
       "name": "main/func_800609F0",
       "target_path": "build/asm/nonmatchings/main/func_800609F0.o",
       "metadata": {
@@ -9311,6 +9335,22 @@
       }
     },
     {
+      "name": "main/func_80062D20",
+      "target_path": "build/asm/nonmatchings/main/func_80062D20.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
+      "name": "main/func_80062D30",
+      "target_path": "build/asm/nonmatchings/main/func_80062D30.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
       "name": "main/func_80062D70",
       "target_path": "build/asm/nonmatchings/main/func_80062D70.o",
       "metadata": {
@@ -9566,6 +9606,14 @@
     {
       "name": "main/func_80065944",
       "target_path": "build/asm/nonmatchings/main/func_80065944.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
+      "name": "main/func_80065944_part1",
+      "target_path": "build/asm/nonmatchings/main/func_80065944_part1.o",
       "metadata": {
         "complete": false,
         "source_path": null
@@ -10743,6 +10791,14 @@
     {
       "name": "code_8030CA40/func_80314784",
       "target_path": "build/asm/nonmatchings/code_8030CA40/func_80314784.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
+      "name": "code_8030CA40/ProcessOffroadChecksumData",
+      "target_path": "build/asm/nonmatchings/code_8030CA40/ProcessOffroadChecksumData.o",
       "metadata": {
         "complete": false,
         "source_path": null

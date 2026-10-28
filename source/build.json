@@ -2421,6 +2421,13 @@
    "asm": "asm/nonmatchings/main/func_80035F70.s"
   },
   {
+   "name": "func_80035F88",
+   "seg": "main",
+   "vram": 2147704712,
+   "rom": 224136,
+   "asm": "asm/nonmatchings/main/func_80035F88.s"
+  },
+  {
    "name": "func_80035FD0",
    "seg": "main",
    "vram": 2147704784,
@@ -4279,6 +4286,13 @@
    "vram": 2147779020,
    "rom": 298444,
    "asm": "asm/nonmatchings/main/func_800481CC.s"
+  },
+  {
+   "name": "func_800481CC_first",
+   "seg": "main",
+   "vram": 2147779044,
+   "rom": 298468,
+   "asm": "asm/nonmatchings/main/func_800481CC_first.s"
   },
   {
    "name": "func_80048310",
@@ -8033,6 +8047,13 @@
    "asm": "asm/nonmatchings/main/func_800605D0.s"
   },
   {
+   "name": "offroadUpdateState",
+   "seg": "main",
+   "vram": 2147878368,
+   "rom": 397792,
+   "asm": "asm/nonmatchings/main/offroadUpdateState.s"
+  },
+  {
    "name": "func_800609F0",
    "seg": "main",
    "vram": 2147879408,
@@ -8428,6 +8449,20 @@
    "asm": "asm/nonmatchings/main/func_80062D10.s"
   },
   {
+   "name": "func_80062D20",
+   "seg": "main",
+   "vram": 2147888416,
+   "rom": 407840,
+   "asm": "asm/nonmatchings/main/func_80062D20.s"
+  },
+  {
+   "name": "func_80062D30",
+   "seg": "main",
+   "vram": 2147888432,
+   "rom": 407856,
+   "asm": "asm/nonmatchings/main/func_80062D30.s"
+  },
+  {
    "name": "func_80062D70",
    "seg": "main",
    "vram": 2147888496,
@@ -8660,6 +8695,13 @@
    "vram": 2147899716,
    "rom": 419140,
    "asm": "asm/nonmatchings/main/func_80065944.s"
+  },
+  {
+   "name": "func_80065944_part1",
+   "seg": "main",
+   "vram": 2147900100,
+   "rom": 419524,
+   "asm": "asm/nonmatchings/main/func_80065944_part1.s"
   },
   {
    "name": "func_80065B5C",
@@ -9700,6 +9742,13 @@
    "vram": 2150713220,
    "rom": 3743924,
    "asm": "asm/nonmatchings/code_8030CA40/func_80314784.s"
+  },
+  {
+   "name": "ProcessOffroadChecksumData",
+   "seg": "code_8030CA40",
+   "vram": 2150714012,
+   "rom": 3744716,
+   "asm": "asm/nonmatchings/code_8030CA40/ProcessOffroadChecksumData.s"
   },
   {
    "name": "func_80314AF4",
