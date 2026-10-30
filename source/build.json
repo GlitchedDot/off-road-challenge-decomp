@@ -3218,6 +3218,20 @@
    "asm": "asm/nonmatchings/main/func_80041D4C.s"
   },
   {
+   "name": "offroadCheck_sumData_init",
+   "seg": "main",
+   "vram": 2147753296,
+   "rom": 272720,
+   "asm": "asm/nonmatchings/main/offroadCheck_sumData_init.s"
+  },
+  {
+   "name": "func_80041D4C_init",
+   "seg": "main",
+   "vram": 2147753360,
+   "rom": 272784,
+   "asm": "asm/nonmatchings/main/func_80041D4C_init.s"
+  },
+  {
    "name": "func_80041F50",
    "seg": "main",
    "vram": 2147753808,
@@ -5131,6 +5145,13 @@
    "vram": 2147801980,
    "rom": 321404,
    "asm": "asm/nonmatchings/main/func_8004DB7C.s"
+  },
+  {
+   "name": "func_8004DB7C_init",
+   "seg": "main",
+   "vram": 2147802016,
+   "rom": 321440,
+   "asm": "asm/nonmatchings/main/func_8004DB7C_init.s"
   },
   {
    "name": "func_8004DC50",

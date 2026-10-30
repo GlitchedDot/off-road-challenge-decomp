@@ -3466,6 +3466,22 @@
       }
     },
     {
+      "name": "main/offroadCheck_sumData_init",
+      "target_path": "build/asm/nonmatchings/main/offroadCheck_sumData_init.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
+      "name": "main/func_80041D4C_init",
+      "target_path": "build/asm/nonmatchings/main/func_80041D4C_init.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
       "name": "main/func_80041F50",
       "target_path": "build/asm/nonmatchings/main/func_80041F50.o",
       "metadata": {
@@ -5601,6 +5617,14 @@
     {
       "name": "main/func_8004DB7C",
       "target_path": "build/asm/nonmatchings/main/func_8004DB7C.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
+      "name": "main/func_8004DB7C_init",
+      "target_path": "build/asm/nonmatchings/main/func_8004DB7C_init.o",
       "metadata": {
         "complete": false,
         "source_path": null
