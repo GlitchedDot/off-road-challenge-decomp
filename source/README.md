@@ -1,7 +1,7 @@
 # OFFROAD (decompilation)
 
 A matching decompilation of OFFROAD for the Nintendo 64, started with [decomp.wtf](https://decomp.wtf).
-158 of 1500 functions are C that compiles to exactly the original code; the rest are still assembly.
+158 of 1501 functions are C that compiles to exactly the original code; the rest are still assembly.
 `build.py` rebuilds the game from this tree and checks it against your original, byte for byte.
 
 ## Build

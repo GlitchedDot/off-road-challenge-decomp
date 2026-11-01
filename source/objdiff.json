@@ -2205,6 +2205,14 @@
       }
     },
     {
+      "name": "main/func_80031420",
+      "target_path": "build/asm/nonmatchings/main/func_80031420.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
       "name": "main/func_8003142C",
       "target_path": "build/asm/nonmatchings/main/func_8003142C.o",
       "metadata": {

@@ -2109,6 +2109,13 @@
    "asm": "asm/nonmatchings/main/func_800313CC.s"
   },
   {
+   "name": "func_80031420",
+   "seg": "main",
+   "vram": 2147685408,
+   "rom": 204832,
+   "asm": "asm/nonmatchings/main/func_80031420.s"
+  },
+  {
    "name": "func_8003142C",
    "seg": "main",
    "vram": 2147685420,

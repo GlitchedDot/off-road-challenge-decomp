@@ -270,6 +270,7 @@ func_800311E0 = 0x800311E0; // type:func
 func_80031290 = 0x80031290; // type:func
 func_80031364 = 0x80031364; // type:func
 func_800313CC = 0x800313CC; // type:func
+func_80031420 = 0x80031420; // type:func
 func_8003142C = 0x8003142C; // type:func
 func_8003149C = 0x8003149C; // type:func
 func_800316E8 = 0x800316E8; // type:func
