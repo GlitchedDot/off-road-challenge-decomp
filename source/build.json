@@ -9912,6 +9912,27 @@
    "asm": "asm/nonmatchings/code_8030CA40/func_80316038.s"
   },
   {
+   "name": "func_8031606C_check",
+   "seg": "code_8030CA40",
+   "vram": 2150719596,
+   "rom": 3750300,
+   "asm": "asm/nonmatchings/code_8030CA40/func_8031606C_check.s"
+  },
+  {
+   "name": "func_80316080_check",
+   "seg": "code_8030CA40",
+   "vram": 2150719616,
+   "rom": 3750320,
+   "asm": "asm/nonmatchings/code_8030CA40/func_80316080_check.s"
+  },
+  {
+   "name": "func_803160C8",
+   "seg": "code_8030CA40",
+   "vram": 2150719688,
+   "rom": 3750392,
+   "asm": "asm/nonmatchings/code_8030CA40/func_803160C8.s"
+  },
+  {
    "name": "func_803160DC",
    "seg": "code_8030CA40",
    "vram": 2150719708,

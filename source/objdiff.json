@@ -10989,6 +10989,30 @@
       }
     },
     {
+      "name": "code_8030CA40/func_8031606C_check",
+      "target_path": "build/asm/nonmatchings/code_8030CA40/func_8031606C_check.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
+      "name": "code_8030CA40/func_80316080_check",
+      "target_path": "build/asm/nonmatchings/code_8030CA40/func_80316080_check.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
+      "name": "code_8030CA40/func_803160C8",
+      "target_path": "build/asm/nonmatchings/code_8030CA40/func_803160C8.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
       "name": "code_8030CA40/func_803160DC",
       "target_path": "build/asm/nonmatchings/code_8030CA40/func_803160DC.o",
       "metadata": {
