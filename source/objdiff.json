@@ -2711,6 +2711,14 @@
       }
     },
     {
+      "name": "main/func_80037A40",
+      "target_path": "build/asm/nonmatchings/main/func_80037A40.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
       "name": "main/func_80037B00",
       "target_path": "build/asm/nonmatchings/main/func_80037B00.o",
       "metadata": {

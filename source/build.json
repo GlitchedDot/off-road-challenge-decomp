@@ -2554,6 +2554,13 @@
    "asm": "asm/nonmatchings/main/func_80037A10.s"
   },
   {
+   "name": "func_80037A40",
+   "seg": "main",
+   "vram": 2147711552,
+   "rom": 230976,
+   "asm": "asm/nonmatchings/main/func_80037A40.s"
+  },
+  {
    "name": "func_80037B00",
    "seg": "main",
    "vram": 2147711744,
