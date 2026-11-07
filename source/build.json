@@ -10540,6 +10540,20 @@
    "asm": "asm/nonmatchings/code_8030CA40/func_80319CF4.s"
   },
   {
+   "name": "func_80319CF4_split1",
+   "seg": "code_8030CA40",
+   "vram": 2150735136,
+   "rom": 3765840,
+   "asm": "asm/nonmatchings/code_8030CA40/func_80319CF4_split1.s"
+  },
+  {
+   "name": "func_80319CF4_part1",
+   "seg": "code_8030CA40",
+   "vram": 2150735172,
+   "rom": 3765876,
+   "asm": "asm/nonmatchings/code_8030CA40/func_80319CF4_part1.s"
+  },
+  {
    "name": "func_80319D90",
    "seg": "code_8030CA40",
    "vram": 2150735248,

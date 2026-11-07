@@ -11663,6 +11663,22 @@
       }
     },
     {
+      "name": "code_8030CA40/func_80319CF4_split1",
+      "target_path": "build/asm/nonmatchings/code_8030CA40/func_80319CF4_split1.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
+      "name": "code_8030CA40/func_80319CF4_part1",
+      "target_path": "build/asm/nonmatchings/code_8030CA40/func_80319CF4_part1.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
       "name": "code_8030CA40/func_80319D90",
       "target_path": "build/asm/nonmatchings/code_8030CA40/func_80319D90.o",
       "metadata": {
