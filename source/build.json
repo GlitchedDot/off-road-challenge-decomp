@@ -6958,6 +6958,13 @@
    "asm": "asm/nonmatchings/main/func_800581AC.s"
   },
   {
+   "name": "func_800581A0",
+   "seg": "main",
+   "vram": 2147844528,
+   "rom": 363952,
+   "asm": "asm/nonmatchings/main/func_800581A0.s"
+  },
+  {
    "name": "func_800581B4",
    "seg": "main",
    "vram": 2147844532,
@@ -6991,6 +6998,13 @@
    "vram": 2147844604,
    "rom": 364028,
    "asm": "asm/nonmatchings/main/func_800581FC.s"
+  },
+  {
+   "name": "func_80058200",
+   "seg": "main",
+   "vram": 2147844608,
+   "rom": 364032,
+   "asm": "asm/nonmatchings/main/func_80058200.s"
   },
   {
    "name": "func_80058204",

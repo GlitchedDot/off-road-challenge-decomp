@@ -7676,6 +7676,14 @@
       }
     },
     {
+      "name": "main/func_800581A0",
+      "target_path": "build/asm/nonmatchings/main/func_800581A0.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
       "name": "main/func_800581B4",
       "target_path": "build/asm/nonmatchings/main/func_800581B4.o",
       "metadata": {
@@ -7710,6 +7718,14 @@
     {
       "name": "main/func_800581FC",
       "target_path": "build/asm/nonmatchings/main/func_800581FC.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
+      "name": "main/func_80058200",
+      "target_path": "build/asm/nonmatchings/main/func_80058200.o",
       "metadata": {
         "complete": false,
         "source_path": null
