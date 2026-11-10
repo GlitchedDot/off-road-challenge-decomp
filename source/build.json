@@ -3785,6 +3785,27 @@
    "asm": "asm/nonmatchings/main/func_80045650.s"
   },
   {
+   "name": "func_800456B8_part1",
+   "seg": "main",
+   "vram": 2147767992,
+   "rom": 287416,
+   "asm": "asm/nonmatchings/main/func_800456B8_part1.s"
+  },
+  {
+   "name": "OffroadStateHandler",
+   "seg": "main",
+   "vram": 2147768240,
+   "rom": 287664,
+   "asm": "asm/nonmatchings/main/OffroadStateHandler.s"
+  },
+  {
+   "name": "offroadStateHandler",
+   "seg": "main",
+   "vram": 2147768256,
+   "rom": 287680,
+   "asm": "asm/nonmatchings/main/offroadStateHandler.s"
+  },
+  {
    "name": "func_80045808",
    "seg": "main",
    "vram": 2147768328,
@@ -3880,6 +3901,13 @@
    "vram": 2147771128,
    "rom": 290552,
    "asm": "asm/nonmatchings/main/func_800462F8.s"
+  },
+  {
+   "name": "func_800462F8_part1",
+   "seg": "main",
+   "vram": 2147771200,
+   "rom": 290624,
+   "asm": "asm/nonmatchings/main/func_800462F8_part1.s"
   },
   {
    "name": "func_800464AC",
@@ -6797,6 +6825,13 @@
    "asm": "asm/nonmatchings/main/func_800579D4.s"
   },
   {
+   "name": "func_80057A3C_part_1",
+   "seg": "main",
+   "vram": 2147842620,
+   "rom": 362044,
+   "asm": "asm/nonmatchings/main/func_80057A3C_part_1.s"
+  },
+  {
    "name": "func_80057B70",
    "seg": "main",
    "vram": 2147842928,
@@ -7089,6 +7124,13 @@
    "vram": 2147847104,
    "rom": 366528,
    "asm": "asm/nonmatchings/main/func_80058BC0.s"
+  },
+  {
+   "name": "processInputPart1",
+   "seg": "main",
+   "vram": 2147847168,
+   "rom": 366592,
+   "asm": "asm/nonmatchings/main/processInputPart1.s"
   },
   {
    "name": "func_80058CF8",

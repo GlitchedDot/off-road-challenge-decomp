@@ -4105,6 +4105,30 @@
       }
     },
     {
+      "name": "main/func_800456B8_part1",
+      "target_path": "build/asm/nonmatchings/main/func_800456B8_part1.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
+      "name": "main/OffroadStateHandler",
+      "target_path": "build/asm/nonmatchings/main/OffroadStateHandler.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
+      "name": "main/offroadStateHandler",
+      "target_path": "build/asm/nonmatchings/main/offroadStateHandler.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
       "name": "main/func_80045808",
       "target_path": "build/asm/nonmatchings/main/func_80045808.o",
       "metadata": {
@@ -4206,6 +4230,14 @@
     {
       "name": "main/func_800462F8",
       "target_path": "build/asm/nonmatchings/main/func_800462F8.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
+      "name": "main/func_800462F8_part1",
+      "target_path": "build/asm/nonmatchings/main/func_800462F8_part1.o",
       "metadata": {
         "complete": false,
         "source_path": null
@@ -7492,6 +7524,14 @@
       }
     },
     {
+      "name": "main/func_80057A3C_part_1",
+      "target_path": "build/asm/nonmatchings/main/func_80057A3C_part_1.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
       "name": "main/func_80057B70",
       "target_path": "build/asm/nonmatchings/main/func_80057B70.o",
       "metadata": {
@@ -7822,6 +7862,14 @@
     {
       "name": "main/func_80058BC0",
       "target_path": "build/asm/nonmatchings/main/func_80058BC0.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
+      "name": "main/processInputPart1",
+      "target_path": "build/asm/nonmatchings/main/processInputPart1.o",
       "metadata": {
         "complete": false,
         "source_path": null
