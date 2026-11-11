@@ -1329,6 +1329,7 @@ func_803119CC = 0x803119CC; // type:func
 func_80312878 = 0x80312878; // type:func
 func_80312C70 = 0x80312C70; // type:func
 func_80312F24 = 0x80312F24; // type:func
+HandleOffroadDataSection2 = 0x80313100; // type:func
 func_8031324C = 0x8031324C; // type:func
 func_80313398 = 0x80313398; // type:func
 func_80313704 = 0x80313704; // type:func

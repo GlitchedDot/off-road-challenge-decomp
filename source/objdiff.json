@@ -10779,6 +10779,14 @@
       }
     },
     {
+      "name": "code_8030CA40/HandleOffroadDataSection2",
+      "target_path": "build/asm/nonmatchings/code_8030CA40/HandleOffroadDataSection2.o",
+      "metadata": {
+        "complete": false,
+        "source_path": null
+      }
+    },
+    {
       "name": "code_8030CA40/func_8031324C",
       "target_path": "build/asm/nonmatchings/code_8030CA40/func_8031324C.o",
       "metadata": {

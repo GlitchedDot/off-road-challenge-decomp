@@ -9726,6 +9726,13 @@
    "asm": "asm/nonmatchings/code_8030CA40/func_80312F24.s"
   },
   {
+   "name": "HandleOffroadDataSection2",
+   "seg": "code_8030CA40",
+   "vram": 2150707456,
+   "rom": 3738160,
+   "asm": "asm/nonmatchings/code_8030CA40/HandleOffroadDataSection2.s"
+  },
+  {
    "name": "func_8031324C",
    "seg": "code_8030CA40",
    "vram": 2150707788,
