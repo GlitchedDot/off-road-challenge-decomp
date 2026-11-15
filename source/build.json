@@ -171,11 +171,11 @@
    "own": {}
   },
   {
-   "name": "func_80000470",
+   "name": "LoadGame",
    "seg": "main",
    "vram": 2147484784,
    "rom": 4208,
-   "asm": "asm/nonmatchings/main/func_80000470.s"
+   "asm": "asm/nonmatchings/main/LoadGame.s"
   },
   {
    "name": "ProcessOffroadData",
@@ -474,12 +474,12 @@
    "asm": "asm/nonmatchings/main/func_80005898.s"
   },
   {
-   "name": "offroadChecksumData2",
+   "name": "gOffroadChecksumData2",
    "seg": "main",
    "vram": 2147506612,
    "rom": 26036,
-   "asm": "asm/nonmatchings/main/offroadChecksumData2.s",
-   "c": "src/main/offroadChecksumData2.c",
+   "asm": "asm/nonmatchings/main/gOffroadChecksumData2.s",
+   "c": "src/main/gOffroadChecksumData2.c",
    "own": {}
   },
   {
@@ -7919,7 +7919,9 @@
    "seg": "main",
    "vram": 2147866272,
    "rom": 385696,
-   "asm": "asm/nonmatchings/main/func_8005D6A0.s"
+   "asm": "asm/nonmatchings/main/func_8005D6A0.s",
+   "c": "src/main/func_8005D6A0.c",
+   "own": {}
   },
   {
    "name": "func_8005D6B0",
@@ -8950,14 +8952,18 @@
    "seg": "main",
    "vram": 2147901728,
    "rom": 421152,
-   "asm": "asm/nonmatchings/main/func_80066120.s"
+   "asm": "asm/nonmatchings/main/func_80066120.s",
+   "c": "src/main/func_80066120.c",
+   "own": {}
   },
   {
    "name": "updateOffroadData",
    "seg": "main",
    "vram": 2147901744,
    "rom": 421168,
-   "asm": "asm/nonmatchings/main/updateOffroadData.s"
+   "asm": "asm/nonmatchings/main/updateOffroadData.s",
+   "c": "src/main/updateOffroadData.c",
+   "own": {}
   },
   {
    "name": "func_80066140",

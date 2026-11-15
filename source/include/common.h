@@ -398,15 +398,15 @@ void OffroadStateReset(s32);
 
 // Your code here
 
-extern OffroadState gOffroadChecksumData;
+extern OffroadState gOffroadChecksumData3;
 
-extern OffroadState gOffroadChecksumData;
+extern OffroadState gOffroadChecksumData3;
 
 void handleOffroadData(void);
 
 void InitGameConfig(s32);
 
-OffroadState gOffroadChecksumData;
+OffroadState gOffroadChecksumData3;
 
 void func_80055030(s32);
 
@@ -446,7 +446,7 @@ void InitOffroadState(s32);
 
 // Your code here
 
-#define func_800059B4 offroadChecksumData2
+#define func_800059B4 gOffroadChecksumData2
 
 extern volatile s32 offroadDataArray_0x8009640C;
 
@@ -513,11 +513,11 @@ extern u32 D_80084A78;
 
 void SetOffroadValue(void *state, s32 id, s32 value);
 
-OffroadState gOffroadChecksumData;
+OffroadState gOffroadChecksumData3;
 
-OffroadState gOffroadChecksumData;
+OffroadState gOffroadChecksumData3;
 
-OffroadState gOffroadChecksumData;
+OffroadState gOffroadChecksumData3;
 
 typedef struct {
     void **unk;
@@ -527,16 +527,26 @@ typedef struct {
 
 f32 OffroadChecksumData2;
 
-OffroadState gOffroadChecksumData;
+OffroadState gOffroadChecksumData3;
 
 // TODO: Fix context.h for func_800011E4
 
 // TODO: Fix context.h for func_800011E4
 
-extern void *D_801038B0;
-extern void *D_80095780;
-extern void *D_8009040C;
+extern void *gOffroadStatePtr;
+extern void *offroadConfigPtr;
+extern void *gOffroadChecksumState;
 
-void *D_801038B0;
+void *gOffroadStatePtr;
+
+extern OffroadState gOffroadChecksumData3;
+
+/* Offroad checksum function */
+
+/* Offroad checksum function */
+
+/* Offroad checksum function */
+
+OffroadChecksumFunction offroadChecksumFunction;
 
 
