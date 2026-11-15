@@ -2527,7 +2527,9 @@
    "seg": "main",
    "vram": 2147709352,
    "rom": 228776,
-   "asm": "asm/nonmatchings/main/func_800371A8.s"
+   "asm": "asm/nonmatchings/main/func_800371A8.s",
+   "c": "src/main/func_800371A8.c",
+   "own": {}
   },
   {
    "name": "func_800371F4",
@@ -3549,7 +3551,9 @@
    "seg": "main",
    "vram": 2147762764,
    "rom": 282188,
-   "asm": "asm/nonmatchings/main/func_8004424C.s"
+   "asm": "asm/nonmatchings/main/func_8004424C.s",
+   "c": "src/main/func_8004424C.c",
+   "own": {}
   },
   {
    "name": "func_80044278",
@@ -5030,7 +5034,9 @@
    "seg": "main",
    "vram": 2147799284,
    "rom": 318708,
-   "asm": "asm/nonmatchings/main/func_8004D0F4.s"
+   "asm": "asm/nonmatchings/main/func_8004D0F4.s",
+   "c": "src/main/func_8004D0F4.c",
+   "own": {}
   },
   {
    "name": "func_8004D160",
@@ -5771,11 +5777,11 @@
    "asm": "asm/nonmatchings/main/func_80051620.s"
   },
   {
-   "name": "func_800518EC",
+   "name": "InitOffroadConfig",
    "seg": "main",
    "vram": 2147817708,
    "rom": 337132,
-   "asm": "asm/nonmatchings/main/func_800518EC.s"
+   "asm": "asm/nonmatchings/main/InitOffroadConfig.s"
   },
   {
    "name": "func_80051EDC",
@@ -7671,7 +7677,9 @@
    "seg": "main",
    "vram": 2147861292,
    "rom": 380716,
-   "asm": "asm/nonmatchings/main/handleOffroadEvent.s"
+   "asm": "asm/nonmatchings/main/handleOffroadEvent.s",
+   "c": "src/main/handleOffroadEvent.c",
+   "own": {}
   },
   {
    "name": "func_8005C34C",
@@ -7726,7 +7734,9 @@
    "seg": "main",
    "vram": 2147862712,
    "rom": 382136,
-   "asm": "asm/nonmatchings/main/func_8005C8B8.s"
+   "asm": "asm/nonmatchings/main/func_8005C8B8.s",
+   "c": "src/main/func_8005C8B8.c",
+   "own": {}
   },
   {
    "name": "func_8005C8D0",
@@ -8582,7 +8592,9 @@
    "seg": "main",
    "vram": 2147887568,
    "rom": 406992,
-   "asm": "asm/nonmatchings/main/func_800629D0.s"
+   "asm": "asm/nonmatchings/main/func_800629D0.s",
+   "c": "src/main/func_800629D0.c",
+   "own": {}
   },
   {
    "name": "func_80062A10",
@@ -8702,14 +8714,18 @@
    "seg": "main",
    "vram": 2147890524,
    "rom": 409948,
-   "asm": "asm/nonmatchings/main/func_8006355C.s"
+   "asm": "asm/nonmatchings/main/func_8006355C.s",
+   "c": "src/main/func_8006355C.c",
+   "own": {}
   },
   {
    "name": "func_800635B8",
    "seg": "main",
    "vram": 2147890616,
    "rom": 410040,
-   "asm": "asm/nonmatchings/main/func_800635B8.s"
+   "asm": "asm/nonmatchings/main/func_800635B8.s",
+   "c": "src/main/func_800635B8.c",
+   "own": {}
   },
   {
    "name": "func_80063600",
@@ -8751,7 +8767,9 @@
    "seg": "main",
    "vram": 2147893740,
    "rom": 413164,
-   "asm": "asm/nonmatchings/main/func_800641EC.s"
+   "asm": "asm/nonmatchings/main/func_800641EC.s",
+   "c": "src/main/func_800641EC.c",
+   "own": {}
   },
   {
    "name": "func_80064220",
@@ -8827,7 +8845,9 @@
    "seg": "main",
    "vram": 2147897520,
    "rom": 416944,
-   "asm": "asm/nonmatchings/main/func_800650B0.s"
+   "asm": "asm/nonmatchings/main/func_800650B0.s",
+   "c": "src/main/func_800650B0.c",
+   "own": {}
   },
   {
    "name": "func_800650E0",
@@ -8970,7 +8990,9 @@
    "seg": "main",
    "vram": 2147901760,
    "rom": 421184,
-   "asm": "asm/nonmatchings/main/func_80066140.s"
+   "asm": "asm/nonmatchings/main/func_80066140.s",
+   "c": "src/main/func_80066140.c",
+   "own": {}
   },
   {
    "name": "func_80066170",
@@ -9200,7 +9222,9 @@
    "seg": "main",
    "vram": 2147910848,
    "rom": 430272,
-   "asm": "asm/nonmatchings/main/func_800684C0.s"
+   "asm": "asm/nonmatchings/main/func_800684C0.s",
+   "c": "src/main/func_800684C0.c",
+   "own": {}
   },
   {
    "name": "func_800684E0",
@@ -9214,7 +9238,9 @@
    "seg": "main",
    "vram": 2147911040,
    "rom": 430464,
-   "asm": "asm/nonmatchings/main/func_80068580.s"
+   "asm": "asm/nonmatchings/main/func_80068580.s",
+   "c": "src/main/func_80068580.c",
+   "own": {}
   },
   {
    "name": "func_800685D0",
@@ -9349,7 +9375,9 @@
    "seg": "main",
    "vram": 2147915936,
    "rom": 435360,
-   "asm": "asm/nonmatchings/main/func_800698A0.s"
+   "asm": "asm/nonmatchings/main/func_800698A0.s",
+   "c": "src/main/func_800698A0.c",
+   "own": {}
   },
   {
    "name": "func_800698D4",

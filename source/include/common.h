@@ -549,4 +549,10 @@ extern OffroadState gOffroadChecksumData3;
 
 OffroadChecksumFunction offroadChecksumFunction;
 
+struct OffroadChecksumData {
+    s32 *unk;
+    s32 *unk2;
+    f32 unk3;
+};
 
+OffroadChecksumFunction offroadChecksumFunction;
