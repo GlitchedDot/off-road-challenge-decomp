@@ -1,6 +1,6 @@
 func_80000450 = 0x80000450; // type:func
 func_80000470 = 0x80000470; // type:func
-OffroadProcessData = 0x800004C0; // type:func
+ProcessOffroadData = 0x800004C0; // type:func
 func_8000067C = 0x8000067C; // type:func
 func_80000874 = 0x80000874; // type:func
 func_80000904 = 0x80000904; // type:func

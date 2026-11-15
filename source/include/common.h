@@ -158,10 +158,6 @@ extern void InitGameConfig(s32 arg0);
 
 
 
-extern void HandleOffroadEvent(void *, s16);
-
-extern void HandleOffroadEvent(void *, s16);
-
 extern f32 sqrtf(f32);
 
 extern f32 sqrtf(f32);
@@ -169,12 +165,6 @@ extern f32 sqrtf(f32);
 extern f32 D_8005D1A0_sqrtf(f32);
 
 void inline_func_8005D1A0(f32);
-
-void sqrtf(f32);
-
-s32 ResetAllGameStates(s32 arg0);
-
-s32 ResetAllGameStates(s32 arg0);
 
 s32 ResetAllGameStates(s32 arg0);
 
@@ -205,9 +195,6 @@ void resetOffroadState(void);
 void setOffroadState(s32);
 
 s32 readOffroadState(void);
-
-void HandleOffroadEvent(void *, s16);
-
 s32 handleOffroadInput(void);
 
 extern s32 offroadDataPtr;
@@ -288,8 +275,6 @@ struct OffroadState {
 
 // Offroad state handling
 
-void HandleOffroadEvent(void *, s16);
-
 // General game state handling
 
 void HandleOffroadState();
@@ -326,8 +311,6 @@ void func_80058178(s32 arg0);
 s32 readOffroadState(void);
 
 struct OffroadState *gOffroadState;
-
-void HandleOffroadEvent(void *, s16);
 
 void handleOffroadState(s32 arg0);
 
@@ -431,11 +414,10 @@ extern s32 MFC0_Masked(void);
 
 // Offroad state handler functions
 void OffroadUpdateState(s32 arg0);
-void HandleOffroadEvent(void *, s16);
 
 struct OffroadState;
 
-void HandleOffroadEvent(void *, s16);
+void HandleOffroadEvent(void *, void *, s16);
 void OffroadUpdateState(s32);
 
 struct OffroadState;
@@ -463,6 +445,8 @@ extern struct OffroadState *gOffroadState;
 void InitOffroadState(s32);
 
 // Your code here
+
+#define func_800059B4 offroadChecksumData2
 
 extern volatile s32 offroadDataArray_0x8009640C;
 
@@ -540,5 +524,19 @@ typedef struct {
     s32 **unk2;
     f32 unk3;
 } offroadState;
+
+f32 OffroadChecksumData2;
+
+OffroadState gOffroadChecksumData;
+
+// TODO: Fix context.h for func_800011E4
+
+// TODO: Fix context.h for func_800011E4
+
+extern void *D_801038B0;
+extern void *D_80095780;
+extern void *D_8009040C;
+
+void *D_801038B0;
 
 
