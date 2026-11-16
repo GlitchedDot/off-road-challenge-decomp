@@ -14,6 +14,6 @@ typedef s32 M2C_UNK32;
 #define M2C_OVERFLOW(a) (0)
 #endif
 
-void func_80007A9C(void) {
+void func_80007A9C_offroad(void) {
 
 }

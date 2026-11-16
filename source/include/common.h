@@ -296,11 +296,7 @@ s32 globalVar_80085E10;
 
 s32 func_80066120(void);
 
-void processOffroadData(void *arg0);
-
-void processOffroadData(void *arg0);
-
-void processOffroadData(void *arg0);
+s32 *processOffroadData(s32 **arg0);
 
 void setProcessorOffroadData(void);
 
@@ -556,3 +552,17 @@ struct OffroadChecksumData {
 };
 
 OffroadChecksumFunction offroadChecksumFunction;
+
+typedef struct {
+    s32 *unk;
+    s32 *unk2;
+    f32 unk3;
+} OffroadChecksumData;
+
+extern OffroadChecksumFunction offroadChecksumFunction;
+
+void InitOffroadConfig(s32 arg0);
+
+void OffroadStateReset(s32);
+
+
