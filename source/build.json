@@ -819,11 +819,11 @@
    "asm": "asm/nonmatchings/main/func_80011A3C.s"
   },
   {
-   "name": "func_80011BD0",
+   "name": "InitGameConfig_v2",
    "seg": "main",
    "vram": 2147556304,
    "rom": 75728,
-   "asm": "asm/nonmatchings/main/func_80011BD0.s"
+   "asm": "asm/nonmatchings/main/InitGameConfig_v2.s"
   },
   {
    "name": "__builtin_read_c0_status",
@@ -2602,11 +2602,11 @@
    "asm": "asm/nonmatchings/main/func_800380E0.s"
   },
   {
-   "name": "func_80039160",
+   "name": "OffroadStateInit",
    "seg": "main",
    "vram": 2147717472,
    "rom": 236896,
-   "asm": "asm/nonmatchings/main/func_80039160.s"
+   "asm": "asm/nonmatchings/main/OffroadStateInit.s"
   },
   {
    "name": "func_80039AF4",
@@ -5777,11 +5777,11 @@
    "asm": "asm/nonmatchings/main/func_80051620.s"
   },
   {
-   "name": "InitOffroadConfig",
+   "name": "OffroadInitConfig",
    "seg": "main",
    "vram": 2147817708,
    "rom": 337132,
-   "asm": "asm/nonmatchings/main/InitOffroadConfig.s"
+   "asm": "asm/nonmatchings/main/OffroadInitConfig.s"
   },
   {
    "name": "func_80051EDC",

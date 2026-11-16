@@ -741,8 +741,8 @@
       }
     },
     {
-      "name": "main/func_80011BD0",
-      "target_path": "build/asm/nonmatchings/main/func_80011BD0.o",
+      "name": "main/InitGameConfig_v2",
+      "target_path": "build/asm/nonmatchings/main/InitGameConfig_v2.o",
       "metadata": {
         "complete": false,
         "source_path": null
@@ -2762,8 +2762,8 @@
       }
     },
     {
-      "name": "main/func_80039160",
-      "target_path": "build/asm/nonmatchings/main/func_80039160.o",
+      "name": "main/OffroadStateInit",
+      "target_path": "build/asm/nonmatchings/main/OffroadStateInit.o",
       "metadata": {
         "complete": false,
         "source_path": null
@@ -6325,8 +6325,8 @@
       }
     },
     {
-      "name": "main/InitOffroadConfig",
-      "target_path": "build/asm/nonmatchings/main/InitOffroadConfig.o",
+      "name": "main/OffroadInitConfig",
+      "target_path": "build/asm/nonmatchings/main/OffroadInitConfig.o",
       "metadata": {
         "complete": false,
         "source_path": null

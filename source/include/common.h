@@ -561,8 +561,18 @@ typedef struct {
 
 extern OffroadChecksumFunction offroadChecksumFunction;
 
-void InitOffroadConfig(s32 arg0);
+void OffroadInitConfig(s32 arg0);
 
 void OffroadStateReset(s32);
+
+void InitGameConfig_v2(s32 arg0);
+
+void InitGameConfig_v2(s32 arg0);
+
+void InitGameConfig_v2(s32 arg0);
+
+void InitGameConfig_v2(s32 arg0);
+
+void InitGameConfig_v2(s32 arg0);
 
 
