@@ -2595,11 +2595,11 @@
    "asm": "asm/nonmatchings/main/func_80038040.s"
   },
   {
-   "name": "func_800380E0",
+   "name": "OffroadChecksumReset",
    "seg": "main",
    "vram": 2147713248,
    "rom": 232672,
-   "asm": "asm/nonmatchings/main/func_800380E0.s"
+   "asm": "asm/nonmatchings/main/OffroadChecksumReset.s"
   },
   {
    "name": "OffroadStateInit",
@@ -7019,12 +7019,12 @@
    "asm": "asm/nonmatchings/main/func_80058180.s"
   },
   {
-   "name": "ResetGame",
+   "name": "ResetGame_v2",
    "seg": "main",
    "vram": 2147844516,
    "rom": 363940,
-   "asm": "asm/nonmatchings/main/ResetGame.s",
-   "c": "src/main/ResetGame.c",
+   "asm": "asm/nonmatchings/main/ResetGame_v2.s",
+   "c": "src/main/ResetGame_v2.c",
    "own": {}
   },
   {
@@ -9814,11 +9814,11 @@
    "asm": "asm/nonmatchings/code_8030CA40/func_80311338.s"
   },
   {
-   "name": "func_803119CC",
+   "name": "ResetGame_v3_v3",
    "seg": "code_8030CA40",
    "vram": 2150701516,
    "rom": 3732220,
-   "asm": "asm/nonmatchings/code_8030CA40/func_803119CC.s"
+   "asm": "asm/nonmatchings/code_8030CA40/ResetGame_v3_v3.s"
   },
   {
    "name": "func_80312878",

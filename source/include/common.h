@@ -32,27 +32,27 @@ void func_80058148(s32 arg0);
 
 void func_80058178(s32 arg0);
 
-void ResetGame(s32 arg0);
+void ResetGame_v2(s32 arg0);
 
-void ResetGame(s32 arg0);
+void ResetGame_v2(s32 arg0);
 
-void ResetGame(s32 arg0);
+void ResetGame_v2(s32 arg0);
 
-void ResetGame(s32 arg0);
+void ResetGame_v2(s32 arg0);
 
 extern s32 func_8002DB68;
 extern void *D_80106000;
 extern s32 D_80097154;
 
-void ResetGame(s32 arg0);
+void ResetGame_v2(s32 arg0);
 
-void ResetGame(s32 arg0);
+void ResetGame_v2(s32 arg0);
 
-void ResetGame(s32 arg0);
+void ResetGame_v2(s32 arg0);
 
  extern void sw(s32, s32);
 
-void ResetGame(s32 arg0);
+void ResetGame_v2(s32 arg0);
 
 void InitGameConfig(s32 arg0);
 
@@ -255,7 +255,7 @@ extern u8 offroadOffset;
 extern s32 func_8002DB68;
 extern void *D_80106000;
 extern s32 D_80097154;
-extern void ResetGame(int arg0);
+extern void ResetGame_v2(int arg0);
 
 typedef struct {
     void **unk;
@@ -308,7 +308,7 @@ s32 readOffroadState(void);
 
 struct OffroadState *gOffroadState;
 
-void handleOffroadState(s32 arg0);
+s32 handleOffroadState(s32 arg0, s32 arg1, s32 arg2, s32 arg3, ...);
 
 extern void sw(s32, s32);
 
@@ -575,4 +575,97 @@ void InitGameConfig_v2(s32 arg0);
 
 void InitGameConfig_v2(s32 arg0);
 
+/* OffroadChecksumReset() - Resets various checksums and state variables in the game.
 
+Header file: context.h
+
+Functions that call this one:
+- func_80041248
+- func_80041444
+
+Data it uses:
+- D_8006D9A8 (0x8006D9A8; data, 8 bytes)
+- D_8006D9D8 (0x8006D9D8; data, 4 bytes)
+- D_8006DA10 (0x8006DA10; data, 4 bytes)
+- D_8006E650 (0x8006E650; data, 4 bytes)
+- D_8006E65C (0x8006E65C; data, 4 bytes)
+- D_8006E660 (0x8006E660; data, 32 bytes)
+- D_8006E680 (0x8006E680; data, 32 bytes)
+- D_8006E6A0 (0x8006E6A0; data, 32 bytes)
+- D_8006E6C0 (0x8006E6C0; data, 32 bytes)
+- D_8006E6E0 (0x8006E6E0; data, 16 bytes)
+- D_8006E720 (0x8006E720; data, 4 bytes)
+- D_8006E724 (0x8006E724; data, 36 bytes)
+- D_8006E748 (0x8006E748; data, 20 bytes)
+- D_8006E770 (0x8006E770; data, 4 bytes)
+- D_80090434 (0x80090434; bss, 4 bytes)
+- D_800904BC (0x800904BC; bss, 4 bytes)
+- D_800907E4 (0x800907E4; bss, 4 bytes)
+- D_800928E0 (0x800928E0; bss, 4 bytes)
+- D_80092938 (0x80092938; bss, 8 bytes)
+- D_80092946 (0x80092946; bss, 2 bytes)
+- D_8009294A (0x8009294A; bss, 2 bytes)
+- D_8009294E (0x8009294E; bss, 2 bytes)
+- D_80094960 (0x80094960; bss, 4 bytes)
+- D_80095F80 (0x80095F80; bss, 12 bytes)
+- D_80095F90 (0x80095F90; bss, 12 bytes)
+- D_8009628C (0x8009628C; bss, 4 bytes)
+- D_800962FA (0x800962FA; bss, 2 bytes)
+- D_800962FE (0x800962FE; bss, 2 bytes)
+- D_80096302 (0x80096302; bss, 2 bytes)
+- D_800963AC (0x800963AC; bss, 4 bytes)
+- D_80096410 (0x80096410; bss, 16 bytes)
+- D_800969AC (0x800969AC; bss, 4 bytes)
+- D_80096A98 (0x80096A98; bss, 4 bytes)
+- D_800970E8 (0x800970E8; bss, 8 bytes)
+- D_80097130 (0x80097130; bss, 4 bytes)
+- D_8009717C (0x8009717C; bss, 8 bytes)
+- D_800971C8 (0x800971C8; bss, 4 bytes)
+- D_800CF618 (0x800CF618; bss, 4 bytes)
+- D_800D5310 (0x800D5310; bss, 4 bytes)
+- D_800D5420 (0x800D5420; bss, 8 bytes)
+
+Structures used:
+- OffroadState
+
+Functions called by this one:
+- func_8001A1DC
+- func_8002FB10
+- func_8003048C
+- func_80030544
+- func_80039AF4
+- func_80039BA4
+- func_80039C54
+- func_80039D0C
+- func_80039F3C
+- func_8003A1A8
+- func_8003A450
+- func_8003A5E4
+- func_8003AB20
+- func_8003AC7C
+- func_8003AE88
+- func_8003CABC
+- func_8003CDDC
+- func_800475FC
+- func_80047E28
+- func_8004D1B4 */
+
+/* OffroadChecksumReset function */
+
+void OffroadChecksumReset(s32 arg0);
+
+void OffroadChecksumReset(s32 arg0);
+
+void OffroadChecksumReset(s32 arg0);
+
+void OffroadChecksumReset(s32 arg0);
+
+// OffroadChecksumReset() - Resets various checksums and state variables in the game.
+
+void OffroadChecksumReset(s32 arg0);
+
+void OffroadChecksumReset(s32 arg0);
+
+void OffroadChecksumReset(s32 arg0);
+
+void OffroadChecksumReset(s32 arg0);
