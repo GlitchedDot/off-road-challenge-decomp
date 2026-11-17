@@ -669,3 +669,41 @@ void OffroadChecksumReset(s32 arg0);
 void OffroadChecksumReset(s32 arg0);
 
 void OffroadChecksumReset(s32 arg0);
+
+extern void func_80012F90();
+extern void func_800130C0();
+extern void func_80013238();
+extern void func_80013260();
+extern void func_80013450();
+extern void func_8001364C();
+extern void func_80013AC8();
+extern void func_80013E7C();
+extern void func_80014820();
+extern void func_80017370();
+extern void func_80041FEC();
+extern void func_8004239C();
+extern void func_80042A80();
+extern void func_80043118();
+extern void func_800433A4();
+
+void InitGameConfig(s32);
+
+void InitGameConfig(s32);
+
+void InitGameConfig(s32);
+
+void InitGameConfig(s32);
+
+void InitGameConfig(s32);
+
+void InitGameConfig(s32);
+
+void InitGameConfig(s32);
+
+void InitGameConfig(s32);
+
+void InitGameConfig(s32);
+
+void InitGameConfig_v2(s32 arg0);
+
+void InitGameConfig_v2(s32 arg0);
