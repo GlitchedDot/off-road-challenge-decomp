@@ -707,3 +707,15 @@ void InitGameConfig(s32);
 void InitGameConfig_v2(s32 arg0);
 
 void InitGameConfig_v2(s32 arg0);
+
+extern OffroadState gOffroadChecksumData3;
+
+void OffroadChecksumReset(s32 arg0);
+
+float func_8000DA7C(void *arg0, void *arg1);
+
+float func_8000DA7C(void *arg0, void *arg1);
+
+float func_8000DA7C(void *arg0, void *arg1);
+
+
