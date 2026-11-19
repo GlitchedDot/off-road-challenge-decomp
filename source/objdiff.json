@@ -4148,9 +4148,10 @@
       "name": "main/func_800458DC",
       "target_path": "build/asm/nonmatchings/main/func_800458DC.o",
       "metadata": {
-        "complete": false,
-        "source_path": null
-      }
+        "complete": true,
+        "source_path": "src/main/func_800458DC.c"
+      },
+      "base_path": "build/src/main/func_800458DC.o"
     },
     {
       "name": "main/func_800458F8",

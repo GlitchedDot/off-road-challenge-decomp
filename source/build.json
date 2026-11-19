@@ -3833,7 +3833,9 @@
    "seg": "main",
    "vram": 2147768540,
    "rom": 287964,
-   "asm": "asm/nonmatchings/main/func_800458DC.s"
+   "asm": "asm/nonmatchings/main/func_800458DC.s",
+   "c": "src/main/func_800458DC.c",
+   "own": {}
   },
   {
    "name": "func_800458F8",

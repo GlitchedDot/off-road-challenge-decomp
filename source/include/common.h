@@ -486,6 +486,7 @@ void func_8005BD54();
 extern void func_8001328C(s32, s32);
 
 extern s32 D_800959AC;
+extern s32 D_8008B67C;
 extern s32 D_800963CC;
 extern s32 D_80100128;
 extern s32 D_8010224C;
@@ -530,7 +531,7 @@ OffroadState gOffroadChecksumData3;
 // TODO: Fix context.h for func_800011E4
 
 extern void *gOffroadStatePtr;
-extern void *offroadConfigPtr;
+extern void *offroadConfigAddr;
 extern void *gOffroadChecksumState;
 
 void *gOffroadStatePtr;
@@ -718,4 +719,8 @@ float func_8000DA7C(void *arg0, void *arg1);
 
 float func_8000DA7C(void *arg0, void *arg1);
 
+extern void offroad_save_state(s32);
 
+extern s32 D_8008B67C;
+
+s32 readOffroadState(void);
