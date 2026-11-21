@@ -65,6 +65,51 @@ void InitGameConfig(s32 arg0);
 void InitGameConfig(s32 arg0);
 
 // context.h for OFFROAD functions
+void InitGameConfig(s32 arg0);
+
+extern void InitGameConfig(s32 arg0);
+
+extern void InitGameConfig(s32 arg0);
+
+extern void InitGameConfig(s32 arg0);
+
+extern void InitGameConfig(s32 arg0);
+
+extern void InitGameConfig(s32 arg0);
+
+extern void InitGameConfig(s32 arg0);
+
+void InitGameConfig(s32 arg0);
+
+extern void InitGameConfig(s32 arg0);
+
+extern void InitGameConfig(s32 arg0);
+
+// context.h for OFFROAD functions
+
+extern void *gOffroadConfigAddr;
+extern void *gOffroadStatePtr;
+extern void *gOffroadChecksumState;
+extern s32 gOffroadChecksumFlag;
+void InitGameConfig(s32 arg0);
+void func_80055030(s32);
+void OffroadStateReset(s32);
+
+extern void InitGameConfig(s32 arg0);
+
+extern void InitGameConfig(s32 arg0);
+
+extern void InitGameConfig(s32 arg0);
+
+extern void InitGameConfig(s32 arg0);
+
+extern void InitGameConfig(s32 arg0);
+
+void InitGameConfig(s32 arg0);
+
+extern void InitGameConfig(s32 arg0);
+
+extern void InitGameConfig(s32 arg0);
 
 void InitGameConfig(s32 arg0);
 
@@ -483,7 +528,7 @@ extern s32 D_8008DF50;
 
 void func_8005BD54();
 
-extern void func_8001328C(s32, s32);
+extern void func_8001328C(f32, void *, void *, s32, s32, s32);
 
 extern s32 D_800959AC;
 extern s32 D_8008B67C;
@@ -495,7 +540,7 @@ void OffroadStateReset(s32 arg0);
 
 void func_80048160(void);
 
-extern s32 OffroadConfigInit(s32);
+extern s32 OffroadConfigInit(void *arg0, void *arg1);
 extern s32 D_8007F874;
 
 void FuncOffroadConfigInit(s32);
@@ -673,8 +718,8 @@ void OffroadChecksumReset(s32 arg0);
 
 extern void func_80012F90();
 extern void func_800130C0();
-extern void func_80013238();
-extern void func_80013260();
+extern void func_80013238(f32, void *, void *, s32, s32);
+extern void func_80013260(f32, void *, void *, s32, s32);
 extern void func_80013450();
 extern void func_8001364C();
 extern void func_80013AC8();
@@ -724,3 +769,8 @@ extern void offroad_save_state(s32);
 extern s32 D_8008B67C;
 
 s32 readOffroadState(void);
+
+#ifndef OFFROAD_CACHE_MACRO
+#define OFFROAD_CACHE_MACRO
+#define cache(op, addr) __asm__ volatile ("cache %0, 0(%1)" : : "i" (op), "r" (addr))
+#endif

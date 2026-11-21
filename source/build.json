@@ -2054,7 +2054,9 @@
    "seg": "main",
    "vram": 2147683736,
    "rom": 203160,
-   "asm": "asm/nonmatchings/main/count_nonzero_bytes.s"
+   "asm": "asm/nonmatchings/main/count_nonzero_bytes.s",
+   "c": "src/main/count_nonzero_bytes.c",
+   "own": {}
   },
   {
    "name": "func_80030DC0",
@@ -8960,7 +8962,9 @@
    "seg": "main",
    "vram": 2147901552,
    "rom": 420976,
-   "asm": "asm/nonmatchings/main/func_80066070.s"
+   "asm": "asm/nonmatchings/main/func_80066070.s",
+   "c": "src/main/func_80066070.c",
+   "own": {}
   },
   {
    "name": "func_800660A0",
