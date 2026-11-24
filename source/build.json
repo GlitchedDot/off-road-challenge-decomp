@@ -10176,7 +10176,9 @@
    "seg": "code_8030CA40",
    "vram": 2150720272,
    "rom": 3750976,
-   "asm": "asm/nonmatchings/code_8030CA40/func_80316310.s"
+   "asm": "asm/nonmatchings/code_8030CA40/func_80316310.s",
+   "c": "src/code_8030CA40/func_80316310.c",
+   "own": {}
   },
   {
    "name": "func_80316344",
@@ -10659,7 +10661,9 @@
    "seg": "code_8030CA40",
    "vram": 2150733392,
    "rom": 3764096,
-   "asm": "asm/nonmatchings/code_8030CA40/func_80319650.s"
+   "asm": "asm/nonmatchings/code_8030CA40/func_80319650.s",
+   "c": "src/code_8030CA40/func_80319650.c",
+   "own": {}
   },
   {
    "name": "func_80319684",

@@ -774,3 +774,6 @@ s32 readOffroadState(void);
 #define OFFROAD_CACHE_MACRO
 #define cache(op, addr) __asm__ volatile ("cache %0, 0(%1)" : : "i" (op), "r" (addr))
 #endif
+
+s32 func_8005EAB0(void *arg0, u16 arg1, s32 arg2, u8 *arg3, u8 *arg4, s32 arg5, s32 *arg6);
+s32 func_8004D65C(void *arg0, u16 arg1, s32 arg2, u8 *arg3, u8 *arg4, s32 *arg5);
