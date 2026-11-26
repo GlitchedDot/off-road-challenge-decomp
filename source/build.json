@@ -8428,7 +8428,9 @@
    "seg": "main",
    "vram": 2147883728,
    "rom": 403152,
-   "asm": "asm/nonmatchings/main/func_80061AD0.s"
+   "asm": "asm/nonmatchings/main/func_80061AD0.s",
+   "c": "src/main/func_80061AD0.c",
+   "own": {}
   },
   {
    "name": "func_80061B10",
