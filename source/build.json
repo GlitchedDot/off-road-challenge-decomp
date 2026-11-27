@@ -3060,7 +3060,9 @@
    "seg": "main",
    "vram": 2147748172,
    "rom": 267596,
-   "asm": "asm/nonmatchings/main/func_8004094C.s"
+   "asm": "asm/nonmatchings/main/func_8004094C.s",
+   "c": "src/main/func_8004094C.c",
+   "own": {}
   },
   {
    "name": "func_80040990",
@@ -10561,7 +10563,9 @@
    "seg": "code_8030CA40",
    "vram": 2150729024,
    "rom": 3759728,
-   "asm": "asm/nonmatchings/code_8030CA40/func_80318540.s"
+   "asm": "asm/nonmatchings/code_8030CA40/func_80318540.s",
+   "c": "src/code_8030CA40/func_80318540.c",
+   "own": {}
   },
   {
    "name": "func_80318584",
@@ -10687,14 +10691,18 @@
    "seg": "code_8030CA40",
    "vram": 2150733500,
    "rom": 3764204,
-   "asm": "asm/nonmatchings/code_8030CA40/func_803196BC.s"
+   "asm": "asm/nonmatchings/code_8030CA40/func_803196BC.s",
+   "c": "src/code_8030CA40/func_803196BC.c",
+   "own": {}
   },
   {
    "name": "func_80319700",
    "seg": "code_8030CA40",
    "vram": 2150733568,
    "rom": 3764272,
-   "asm": "asm/nonmatchings/code_8030CA40/func_80319700.s"
+   "asm": "asm/nonmatchings/code_8030CA40/func_80319700.s",
+   "c": "src/code_8030CA40/func_80319700.c",
+   "own": {}
   },
   {
    "name": "func_80319740",
